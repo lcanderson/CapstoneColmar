@@ -1,0 +1,36 @@
+/* Style for Captstone Colmar Academy Project */
+/* by L Anderson */
+
+/* Heading area */
+.logo {
+  height: 32px;
+  width: 32px;
+  background-image: url("../resources/images/ic-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 1em;
+}
+
+nav {
+
+}
+
+.logo {
+  float: left;
+}
+
+h1 {
+  float: left;
+
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
