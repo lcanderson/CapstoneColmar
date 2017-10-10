@@ -5,12 +5,13 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="resources/reset.css">
     <link rel="stylesheet" type="text/css" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
   </head>
   <body>
     <nav>
       <!-- Nav code example found at myportfolio\index.html -->
       <div class="logo"></div>
-      <h1>ColmarAcademy</h1>
+      <h1 class="upper">Colmar<span class="lucent">Academy</span></h1>
       <ul>
         <li><a href="#">On campus</a></li>
         <li><a href="#">Online</a></li>
@@ -81,7 +82,7 @@
           <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
           <div class="inside">
             <h3>Software engineering</h3>
-            <p>Courses</p>
+            <p class="upper lucent">Courses</p>
             <p>Web Development, Mobile Development, iOT, APois</p>
           </div>
         </div>
@@ -89,58 +90,85 @@
           <img src="resources/images/course-computer-art.jpg" alt="Image of smart phone">
           <div class="inside">
             <h3>Computer art</h3>
-            <p>Courses</p>
+            <p class="upper lucent">Courses</p>
             <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
+          <img src="resources/images/course-design.jpg" alt="Student taking photographs">
           <div class="inside">
-            <h3>Software engineering</h3>
-            <p>Courses</p>
-            <p>Web Development, Mobile Development, iOT, APois</p>
+            <h3>Design</h3>
+            <p class="upper lucent">Courses</p>
+            <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
+          <img src="resources/images/course-data.jpg" alt="Image of laptop computer">
           <div class="inside">
-            <h3>Software engineering</h3>
-            <p>Courses</p>
-            <p>Web Development, Mobile Development, iOT, APois</p>
+            <h3>Data</h3>
+            <p class="upper lucent">Courses</p>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
+          <img src="resources/images/course-business.jpg" alt="Chess game image">
           <div class="inside">
-            <h3>Software engineering</h3>
-            <p>Courses</p>
-            <p>Web Development, Mobile Development, iOT, APois</p>
+            <h3>Business</h3>
+            <p class="upper lucent">Courses</p>
+            <p>Product Development, Business Development, Startup</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
+          <img src="resources/images/course-marketing.jpg" alt="Image of smart watch">
           <div class="inside">
-            <h3>Software engineering</h3>
-            <p>Courses</p>
-            <p>Web Development, Mobile Development, iOT, APois</p>
+            <h3>Marketing</h3>
+            <p class="upper lucent">Courses</p>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
       </div>
     </section>
     <section class="thesis">
+      <h2>Thesis exhibit</h2>
       <div class="flex">
         <div class="left">
+          <video controls>
+            <source src="resources/videos/thesis.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <h3>Reimagine Urban</h3>
+          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
+            lectus, nec consequat neque. Sed non accurnsan urna. Phasellus sed consequat
+            ex. Etiam eget magna lacreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
-        <div class="right flex">
-          <div class="righttile">
+        <div class="right">
+          <div class="righttile flex top color">
+            <div class="photo">
+              <img src="resources/images/thesis-fisma.jpg" alt="Notes on papaer">
+            </div>
+            <div class="info">
+              <h3>Fisma: Design and Prototype</h3>
+              <p>Designer showcase of new prototype product</p>
+            </div>
           </div>
-          <div class="righttile">
+          <div class="righttile flex">
+            <div class="photo">
+              <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of cityscape">
+            </div>
+            <div class="info">
+              <h3>Now and then</h3>
+              <p>Research study about New York</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <footer>
-      <p></p>
+      <p>&copy;2016 Colmar Academy.  All rights reserved</p>
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
     </footer>
 
   </body>
