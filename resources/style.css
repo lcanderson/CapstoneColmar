@@ -129,7 +129,6 @@ p {
 .right {
   margin-left: 24px;
   width: 40%;
-
 }
 
 .button {
@@ -148,6 +147,21 @@ p {
 .photo {
   width: 35%;
   height: auto;
+  padding-top: 16px;
+}
+
+.info {
+  margin-left: 16px;
+  width: 65%;
+}
+
+.info a {
+  color: blue;
+}
+
+.info p {
+  padding-top: 8px;
+  padding-right: 8px;
 }
 
 /* GemeralInfo section styling */
@@ -167,18 +181,6 @@ p {
 .righttile {
   padding: 0 0 16px 16px;
   align-items: center;
-}
-
-.photo {
-  padding-top: 16px;
-}
-
-.info {
-  margin-left: 16px;
-}
-
-.info a {
-  color: blue;
 }
 
 .wrap {
@@ -202,10 +204,6 @@ p {
 figcaption {
   padding-top: 32px;
   font-size: 12px;
-}
-
-.info p {
-  padding-top: 8px;
 }
 
 .thesis h2 {
