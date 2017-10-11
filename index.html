@@ -8,23 +8,25 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <div class="icons">
-          <a href="#"><img src="resources/images/ic-logo.svg" alt="logo"></a>
-          <a href="#"><img src="resources/images/ic-on-campus.svg" alt="On campus"></a>
-          <a href="#"><img src="resources/images/ic-online.svg" alt="Online"></a>
-          <a href="#"><img src="resources/images/ic-login.svg" alt="Sign in"></a>
+    <header>
+      <nav>
+        <div class="icons">
+            <a href="#"><img src="resources/images/ic-logo.svg" alt="logo"></a>
+            <a href="#"><img src="resources/images/ic-on-campus.svg" alt="On campus"></a>
+            <a href="#"><img src="resources/images/ic-online.svg" alt="Online"></a>
+            <a href="#"><img src="resources/images/ic-login.svg" alt="Sign in"></a>
+          </div>
         </div>
-      </div>
-      <div class="logo"></div>
-      <h1 class="upper">Colmar<span class="lucent">Academy</span></h1>
-      <ul>
-        <li><a href="#">On campus</a></li>
-        <li><a href="#">Online</a></li>
-        <li><a href="#">For Companies</a></li>
-        <li><a href="#">Sign in</a></li>
-      </ul>
-    </nav>
+        <div class="logo" role="figure" aria-label="School logo"></div>
+        <h1 class="upper">Colmar<span class="lucent">Academy</span></h1>
+        <ul role="presentation">
+          <li><a href="#">On campus</a></li>
+          <li><a href="#">Online</a></li>
+          <li><a href="#">For Companies</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    <header>
     <div class="mcolor">
     <section class="color focus flex">
       <div class="left">
@@ -33,15 +35,15 @@
       <div class="right">
         <h2>Learn something new everyday</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="button">
+        <div class="button" role="button">
           <a href="#">Start here</a>
         </div>
       </div>
     </section>
     </div>
     <section class="GeneralInfo">
-      <div class="flex">
-        <div class="left hidden">
+      <div class="flex" role="presentation">
+        <div class="left hidden" role="presentation">
           <img src="resources/images/information-main.jpg" alt="professional reading book">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
@@ -49,35 +51,35 @@
             ex. Etiam eget magna lacreet, efficitur dolor consequat, tristique ligula.</p>
           <figcaption>Emanuel, Sr Strategist at Hiring.com</figcaption>
         </div>
-        <div class="right">
-          <div class="righttile flex">
-            <div class="photo">
+        <div class="right" role="presentation">
+          <div class="righttile flex" role="presentation">
+            <div class="photo" role="presentation">
               <img class="hidden" src="resources/images/information-orientation.jpg" alt="Students walking on path">
               <img class="mobilephoto" src="resources/images/information-orientation-mobile.jpg" alt="Students walking on path">
             </div>
-            <div class="info">
+            <div class="info" role="presentation">
               <h3>Orientation date</h3>
               <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
               <p><a href="#">Read more</a></p>
             </div>
           </div>
-          <div class="righttile flex">
-            <div class="photo">
+          <div class="righttile flex" role="presentation">
+            <div class="photo" role="presentation">
               <img class="hidden" src="resources/images/information-campus.jpg" alt="Students at table">
               <img class="mobilephoto" src="resources/images/information-campus-mobile.jpg" alt="Students at table">
             </div>
-            <div class="info">
+            <div class="info" role="presentation">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
               <p><a href="#">Read more</a></p>
             </div>
           </div>
-          <div class="righttile flex color">
-            <div class="photo">
+          <div class="righttile flex color" role="presentation">
+            <div class="photo" role="presentation">
               <img class="hidden" src="resources/images/information-guest-lecture.jpg" alt="Guest lecturer profile picture">
               <img class="mobilephoto" src="resources/images/information-guest-lecture-mobile.jpg" alt="Guest lecturer profile picture">
             </div>
-            <div class="info">
+            <div class="info" role="presentation">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
               <p><a href="#">Read more</a></p>
@@ -88,8 +90,8 @@
     </section>
     <section class="CourseInfo color">
       <h2>Start learning</h2>
-      <div class="flex wrap">
-        <div class=tile>
+      <div class="flex wrap" role="presentation">
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-software.jpg" alt="Image of desktop computer">
           <div class="inside">
             <h3>Software engineering</h3>
@@ -97,41 +99,41 @@
             <p class="hidden">Web Development, Mobile Development, iOT, APois</p>
           </div>
         </div>
-        <div class=tile>
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-computer-art.jpg" alt="Image of smart phone">
-          <div class="inside">
+          <div class="inside" role="presentation">
             <h3>Computer art</h3>
             <p class="hidden" class="upper lucent">Courses</p>
             <p class="hidden">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
           </div>
         </div>
-        <div class=tile>
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-design.jpg" alt="Student taking photographs">
-          <div class="inside">
+          <div class="inside" role="presentation">
             <h3>Design</h3>
             <p class="hidden" class="upper lucent">Courses</p>
             <p class="hidden">User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
-        <div class=tile>
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-data.jpg" alt="Image of laptop computer">
-          <div class="inside">
+          <div class="inside" role="presentation">
             <h3>Data</h3>
             <p class="hidden" class="upper lucent">Courses</p>
             <p class="hidden">Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
-        <div class=tile>
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-business.jpg" alt="Chess game image">
-          <div class="inside">
+          <div class="inside" role="presentation">
             <h3>Business</h3>
             <p class="hidden" class="upper lucent">Courses</p>
             <p class="hidden">Product Development, Business Development, Startup</p>
           </div>
         </div>
-        <div class=tile>
+        <div class=tile role="presentation">
           <img class="hidden" src="resources/images/course-marketing.jpg" alt="Image of smart watch">
-          <div class="inside">
+          <div class="inside" role="presentation">
             <h3>Marketing</h3>
             <p class="hidden" class="upper lucent">Courses</p>
             <p class="hidden">Analytics, Content Marketing, Mobile Marketing</p>
@@ -141,8 +143,8 @@
     </section>
     <section class="thesis">
       <h2>Thesis exhibit</h2>
-      <div class="flex">
-        <div class="left">
+      <div class="flex" role="presentation">
+        <div class="left" role="presentation">
           <video controls>
             <source src="resources/videos/thesis.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -152,21 +154,21 @@
             lectus, nec consequat neque. Sed non accurnsan urna. Phasellus sed consequat
             ex. Etiam eget magna lacreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
-        <div class="right hidden">
-          <div class="righttile flex top color">
-            <div class="photo">
+        <div class="right hidden" role="presentation">
+          <div class="righttile flex top color" role="presentation">
+            <div class="photo" role="presentation">
               <img src="resources/images/thesis-fisma.jpg" alt="Notes on papaer">
             </div>
-            <div class="info">
+            <div class="info" role="presentation">
               <h3>Fisma: Design and Prototype</h3>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
-          <div class="righttile flex">
-            <div class="photo">
+          <div class="righttile flex" role="presentation">
+            <div class="photo" role="presentation">
               <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of cityscape">
             </div>
-            <div class="info">
+            <div class="info" role="presentation">
               <h3>Now and then</h3>
               <p>Research study about New York</p>
             </div>
