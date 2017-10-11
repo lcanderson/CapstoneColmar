@@ -150,6 +150,7 @@ p {
   height: auto;
 }
 
+/* GemeralInfo section styling */
 .GeneralInfo {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -164,12 +165,12 @@ p {
 }
 
 .righttile {
-  padding: 16px 0 16px 16px;
+  padding: 0 0 16px 16px;
   align-items: center;
 }
 
-.top {
-  padding-top: 0;
+.photo {
+  padding-top: 16px;
 }
 
 .info {
@@ -227,7 +228,6 @@ figcaption {
 
 .inside {
   padding: 16px 8px 24px 16px;
-  width: 100%;
 }
 
 footer {
@@ -246,7 +246,7 @@ footer a {
 /***** Mobil styling area *****/
 /******************************/
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
 
   /* Hidden elements */
   nav h1, ul {
@@ -265,7 +265,20 @@ footer a {
     background-color: white;
   }
 
-/* CourseInfo Section Bottons */
+  .mcolor {
+    background-color: gainsboro;
+    padding-bottom: 32px;
+  }
+
+  .GeneralInfo {
+    margin-top: 16px;
+  }
+
+  .info {
+    margin-top: 32px;
+  }
+
+/* CourseInfo Section Buttons */
 
   .CourseInfo {
     padding: 0 8px 32px 8px;
@@ -282,8 +295,10 @@ footer a {
   }
 
   .icons {
-    display: inline-block;
-
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    justify-content: space-between;
   }
 
   .mobilephoto {
@@ -297,17 +312,19 @@ footer a {
 
   .right {
     margin-left: 16px;
-    width: 100%;
+    width: inherit;
   }
 
   .button {
     width: 95%;
+    max-width: 95%;
     background-color: #848484;
     font-weight: bold;
   }
 
   .photo {
-    width: 100%;
+    width: inherit;
+    margin-right: 16px;
   }
 
   /* Mobile Footer */
