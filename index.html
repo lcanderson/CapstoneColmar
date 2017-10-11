@@ -10,6 +10,12 @@
   <body>
     <nav>
       <!-- Nav code example found at myportfolio\index.html -->
+      <div class="icons">
+        <a href="#"><img src="resources/images/ic-logo.svg" alt="logo"></a>
+        <a href="#"><img src="resources/images/ic-on-campus.svg" alt="On campus"></a>
+        <a href="#"><img src="resources/images/ic-online.svg" alt="Online"></a>
+        <a href="#"><img src="resources/images/ic-login.svg" alt="Sign in"></a>
+      </div>
       <div class="logo"></div>
       <h1 class="upper">Colmar<span class="lucent">Academy</span></h1>
       <ul>
@@ -33,7 +39,7 @@
     </section>
     <section class="GeneralInfo">
       <div class="flex">
-        <div class="left">
+        <div class="left hidden">
           <img src="resources/images/information-main.jpg" alt="professional reading book">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
@@ -44,7 +50,8 @@
         <div class="right">
           <div class="righttile flex top">
             <div class="photo">
-              <img src="resources/images/information-orientation.jpg" alt="Students walking on path">
+              <img class="hidden" src="resources/images/information-orientation.jpg" alt="Students walking on path">
+              <img class="mobilephoto" src="resources/images/information-orientation-mobile.jpg" alt="Students walking on path">
             </div>
             <div class="info">
               <h3>Orientation date</h3>
@@ -54,7 +61,8 @@
           </div>
           <div class="righttile flex">
             <div class="photo">
-              <img src="resources/images/information-campus.jpg" alt="Students at table">
+              <img class="hidden" src="resources/images/information-campus.jpg" alt="Students at table">
+              <img class="mobilephoto" src="resources/images/information-campus-mobile.jpg" alt="Students at table">
             </div>
             <div class="info">
               <h3>Our campus</h3>
@@ -64,7 +72,8 @@
           </div>
           <div class="righttile flex color">
             <div class="photo">
-              <img src="resources/images/information-guest-lecture.jpg" alt="Guest lecturer profile picture">
+              <img class="hidden" src="resources/images/information-guest-lecture.jpg" alt="Guest lecturer profile picture">
+              <img class="mobilephoto" src="resources/images/information-guest-lecture-mobile.jpg" alt="Guest lecturer profile picture">
             </div>
             <div class="info">
               <h3>Our guest lecture</h3>
@@ -79,51 +88,51 @@
       <h2>Start learning</h2>
       <div class="flex wrap">
         <div class=tile>
-          <img src="resources/images/course-software.jpg" alt="Image of desktop computer">
+          <img class="hidden" src="resources/images/course-software.jpg" alt="Image of desktop computer">
           <div class="inside">
             <h3>Software engineering</h3>
-            <p class="upper lucent">Courses</p>
-            <p>Web Development, Mobile Development, iOT, APois</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">Web Development, Mobile Development, iOT, APois</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-computer-art.jpg" alt="Image of smart phone">
+          <img class="hidden" src="resources/images/course-computer-art.jpg" alt="Image of smart phone">
           <div class="inside">
             <h3>Computer art</h3>
-            <p class="upper lucent">Courses</p>
-            <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-design.jpg" alt="Student taking photographs">
+          <img class="hidden" src="resources/images/course-design.jpg" alt="Student taking photographs">
           <div class="inside">
             <h3>Design</h3>
-            <p class="upper lucent">Courses</p>
-            <p>User Experience Design, User Research, Visual Design</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-data.jpg" alt="Image of laptop computer">
+          <img class="hidden" src="resources/images/course-data.jpg" alt="Image of laptop computer">
           <div class="inside">
             <h3>Data</h3>
-            <p class="upper lucent">Courses</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-business.jpg" alt="Chess game image">
+          <img class="hidden" src="resources/images/course-business.jpg" alt="Chess game image">
           <div class="inside">
             <h3>Business</h3>
-            <p class="upper lucent">Courses</p>
-            <p>Product Development, Business Development, Startup</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">Product Development, Business Development, Startup</p>
           </div>
         </div>
         <div class=tile>
-          <img src="resources/images/course-marketing.jpg" alt="Image of smart watch">
+          <img class="hidden" src="resources/images/course-marketing.jpg" alt="Image of smart watch">
           <div class="inside">
             <h3>Marketing</h3>
-            <p class="upper lucent">Courses</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <p class="hidden" class="upper lucent">Courses</p>
+            <p class="hidden">Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
       </div>
@@ -136,12 +145,12 @@
             <source src="resources/videos/thesis.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video>
-          <h3>Reimagine Urban</h3>
-          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
+          <h3 class="hidden">Reimagine Urban</h3>
+          <p class="hidden">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
             lectus, nec consequat neque. Sed non accurnsan urna. Phasellus sed consequat
             ex. Etiam eget magna lacreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
-        <div class="right">
+        <div class="right hidden">
           <div class="righttile flex top color">
             <div class="photo">
               <img src="resources/images/thesis-fisma.jpg" alt="Notes on papaer">

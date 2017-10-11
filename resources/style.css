@@ -1,5 +1,6 @@
 /* Style for Captstone Colmar Academy Project */
 /* by L Anderson */
+/* wire frame:  https://s3.amazonaws.com/codecademy-content/courses/freelance-1/capstone-2/colmar-academy-spec.png */
 
 body {
   margin-left: 8px;
@@ -20,6 +21,15 @@ img {
 video {
   max-width: 100%;
   max-height: 100%;
+}
+
+/* hiding mobile icons */
+.icons {
+  display: none;
+}
+
+.mobilephoto {
+  display: none;
 }
 
 /* Heading area */
@@ -123,7 +133,6 @@ p {
 }
 
 .button {
-  width: 100%;
   padding: 8px 0 8px 0;
   margin-top: 24px;
   width: 80%;
@@ -218,6 +227,7 @@ figcaption {
 
 .inside {
   padding: 16px 8px 24px 16px;
+  width: 100%;
 }
 
 footer {
@@ -230,4 +240,79 @@ footer p {
 
 footer a {
   font-size: 12px;
+}
+
+/******************************/
+/***** Mobil styling area *****/
+/******************************/
+
+@media only screen and (max-width: 800px){
+
+  /* Hidden elements */
+  nav h1, ul {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .color {
+    background-color: white;
+  }
+
+/* CourseInfo Section Bottons */
+
+  .CourseInfo {
+    padding: 0 8px 32px 8px;
+  }
+
+  .tile {
+    max-width: 100%;
+    background-color: gainsboro;
+    margin-bottom: 8px;
+  }
+
+  .flex {
+    display: inline;
+  }
+
+  .icons {
+    display: inline-block;
+
+  }
+
+  .mobilephoto {
+    display: block;
+  }
+
+  .left {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .right {
+    margin-left: 16px;
+    width: 100%;
+  }
+
+  .button {
+    width: 95%;
+    background-color: #848484;
+    font-weight: bold;
+  }
+
+  .photo {
+    width: 100%;
+  }
+
+  /* Mobile Footer */
+  footer {
+    padding: 16px 24px 16px 8px;
+  }
+
 }
