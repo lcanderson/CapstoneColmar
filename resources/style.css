@@ -118,7 +118,7 @@ p {
 .focus p {
   font-size: 24px;
   font-weight: bold;
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 .left {
